@@ -20,6 +20,11 @@ function sub($args){
 	}
 }
 
+function show($args){
+	$curr_val = array_shift($args);
+	return $curr_val;
+}
+
 function clear(){
 	global $file_name;
 	file_put_contents($file_name, "0");
