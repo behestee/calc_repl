@@ -1,7 +1,5 @@
 #!d:\xampp\php\php.exe
 <?php
-//c:\xampp\php\php.exe -f calc.php -dcli.prompt="\nphp> " -a input_fie_name
-//calc.php input.txt
 $file_name = $argv[1];
 
 require_once('./command_lib.inc'); 
