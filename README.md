@@ -46,6 +46,5 @@ invalid command
 ```
 
 ### Solution
-Change `#!d:\xampp\php\php.exe` to your php directory path. Sample if for Windows. In linux usually it should be `#!/usr/bin/php`
-Then go to the solution directory and run `php calc.php input.txt` command in Windows cmd prompt or `calc.php input.txt` in bash or linux terminal.
+Change `#!d:\xampp\php\php.exe` to your php directory path. Sample is for Windows. In linux it should be `#!/usr/bin/php`. Then go to the solution directory and run `php calc.php input.txt` command in Windows cmd prompt or `calc.php input.txt` in bash or linux terminal.
 
